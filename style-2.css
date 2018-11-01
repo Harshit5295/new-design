@@ -298,16 +298,23 @@ select {
 .sa_image {
     opacity: 0.6;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.sa_price_wrapper {
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.sa_price_wrapper span {
+    color: #32b496;
+    font-weight: bolder;
 }
 
 .sa_name {
     margin: 0;
-    position: relative;
-    top: -50%;
-    color: white;
     font-weight: 700;
     font-size: 14px;
-    left: 33%;
 }
 
 .desktop_only {
