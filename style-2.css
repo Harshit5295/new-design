@@ -1,0 +1,576 @@
+header {
+    display: block;
+}
+
+.street_text {
+    color: #FD6F56;
+    font-size: 12px;
+    text-align: center;
+}
+
+label {
+    font-size: 13px;
+    margin-bottom: 2px;
+    font-family: Open Sans;
+}
+
+input[type="text"] {
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    height: 40px;
+    padding: 4px 6px;
+    width: 100%;
+}
+
+textarea {
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    padding: 4px 6px;
+    resize: none;
+}
+
+li, p, h4, h5, h6 {
+    font-family: Open Sans;
+}
+
+.overview_wrapper {
+    display: block;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.breadcrumb_row {
+    margin: 115px 0 0 0;
+}
+
+.breadcrumb_row p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.menubar_wrapper {
+    border-bottom: 1px solid #EAEAEA;
+    margin: 15px 0 32px 0;
+}
+
+td, th {
+    font-size: 13px;
+    font-family: Open Sans;
+    padding: 10px 0 !important;
+}
+
+th {
+    font-weight: 400;
+}
+
+.amenity_image {
+    margin-right: 5px;
+}
+
+.menubar_ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menubar_ul li {
+    display: inline-block;
+    margin: 8px 16px auto;
+    font-size: 13px;
+    padding: 10px 0;
+    font-family: Open Sans;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.styled_list {
+    color: #46267C;
+    border-bottom: 2px solid #46267C;
+    font-weight: bolder;
+}
+
+.prop_name {
+    margin: 10px 0;
+    color: #30343f;
+    font-family: MontSerrat;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .1px;
+    line-height: 29px;
+}
+
+.prop_address {
+    color: #46267c;
+    font-family: Open Sans;
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.prop_offer {
+    font-family: Open Sans;
+    font-size: 16px;
+    background-color: #2cbaa0;
+    color: #fff;
+    width: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin: 15px 0;
+}
+
+.carousel-control-next {
+    background: #fd6f56;
+    opacity: 1;
+    height: 30px;
+    border-radius: 4px;
+    top: 45%;
+    right: -2%;
+    width: 30px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 10px;
+}
+
+.carousel-control-prev {
+    background: #fd6f56;
+    opacity: 1;
+    height: 30px;
+    border-radius: 4px;
+    top: 45%;
+    left: -2%;
+    width: 30px;
+}
+
+.normal_headings {
+    color: #626262;
+    font-family: Open Sans;
+    font-size: 13px;
+    letter-spacing: .1px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.property_desc_heading {
+    color: #282b2e;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .1px;
+    line-height: 24.9px;
+    margin: 10px 0 7px 0;
+}
+
+.about_property {
+    color: #6b737a;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: .1px;
+    line-height: 24.9px;
+    margin-bottom: 7px;
+    text-align: justify;
+}
+
+.section_headings {
+    color: #282b2e;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .1px;
+    line-height: 24.9px;
+    margin: 15px 0 8px 0;
+}
+
+.room_type_wrapper {
+    background-color: #f1f1f1;
+    margin: 40px 0;
+    padding: 18px;
+    border-radius: 4px;
+}
+
+.room_category_wrapper {
+    margin: 32px 0;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+select {
+    outline: none;
+    height: 40px;
+    border: 1px solid;
+    padding: 0 6px;
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+.tenancy_listing li {
+    font-size: 13px;
+    font-family: Open Sans;
+    margin: 0 0 10px 0;
+    border: 1px solid;
+    padding: 10px 4px;
+    cursor: pointer;
+}
+
+.tenancy_listing li:hover {
+    background-color: #FD6F56;
+    color: white;
+}
+
+.active_tenancy {
+    background-color: #32B496;
+    color: white;
+    border: 1px solid #32B496;
+}
+
+.enquire_button {
+    outline: none;
+    border: 1px solid #FD6F56;
+    color: #FD6F56;
+    padding: 8px 12px;
+    font-family: Open Sans;
+    background-color: white;
+    margin: 0 0 8px 0;
+    font-size: 14px;
+}
+
+.book_button {
+    outline: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 8px 12px;
+    font-family: Open Sans;
+    background-color: #FD6F56;
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    border: 1px solid #FD6F56;
+}
+
+.compare_button {
+    outline: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 8px 12px;
+    font-family: Open Sans;
+    background-color: #FD6F56;
+    margin: 0 0 8px 0;
+    font-size: 14px;
+}
+
+.room_price {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.offer_image_wrapper {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.offer_description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+}
+
+.sa_image_wrapper {
+    background-color: black;
+    border-radius: 4px;
+}
+
+.sa_image {
+    opacity: 0.6;
+    border-radius: 4px;
+}
+
+.sa_name {
+    margin: 0;
+    position: relative;
+    top: -50%;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    left: 33%;
+}
+
+.desktop_only {
+    display: block;
+}
+
+.mobile_only {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        display: none;
+    }
+
+    .about_property_pwa {
+        font-size: 14px;
+        font-family: Open Sans;
+        text-align: justify;
+    }
+
+    .tenancy_book {
+        position: absolute;
+        right: 25px;
+    }
+
+    .offer_at_tenancy_level {
+        margin: 12px 0;
+        display: flex;
+    }
+
+    .offer_desc_pwa {
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+
+    .street_view {
+        color: #FFF;
+        padding: 8px 12px;
+        text-align: center;
+        font-family: Open Sans;
+        background-color: #00B8A0;
+        margin: 0;
+        font-size: 18px;
+        display: none;
+    }
+
+    .overview_wrapper {
+        display: none;
+    }
+
+    .desktop_only {
+        display: none;
+    }
+
+    .mobile_only {
+        display: block;
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .menubar_pwa li {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .nearby_uni_wrapper_pwa {
+        background-color: #FFF;
+        padding: 20px 0;
+    }
+
+    .single_nearby_card {
+        background-color: #F5F6F6;
+        padding: 16px;
+        display: inline-block;
+        margin: 0 16px 0 0;
+        border-radius: 7px;
+        box-shadow: 2px 2px rgba(0,0,0,0.1);
+    }
+
+    .facilities_wrapper_pwa {
+        margin: 24px 0 0 0;
+        padding: 24px 0;
+        background-color: #F5F6F6;
+    }
+
+    .single_facility_wrapper {
+        margin: 0 0 12px 0;
+    }
+
+    .amenity_icon {
+        width: 28px;
+        margin-right: 6px;
+    }
+
+    .types_wrapper_pwa {
+        display: flex;
+        text-align: center;
+    }
+
+    .single_room_type_heading_selected {
+        border: 1px solid #FD6F56;
+        padding: 12px 25px;
+        margin-right: 7px;
+        background: #fd6f56;
+        color: white;
+    }
+
+    .single_room_type_heading {
+        border: 1px solid #FD6F56;
+        padding: 12px 25px;
+        margin-right: 7px;
+        background: white;
+        color: #282B2E;
+    }
+
+    .offer_wrapper_pwa {
+        font-family: Open Sans;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        border: 1px solid #2bf3b6;
+        box-shadow: 3px 3px lightgrey;
+    }
+
+    .tenancy_options_pwa {
+        padding: 14px;
+        box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+        border-radius: 4px;
+        margin-bottom: 27px;
+        background-color: white;
+    }
+
+    .single_room_type_dec_wrapper {
+        margin: 20px 0 32px 0;
+        padding: 14px 0;
+    }
+
+    .starts_at {
+        margin-left: 35px;
+        font-size: 14px;
+        color: #fd6f56;
+    }
+
+    .room_price_pwa {
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: .1px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .single_available_tenancy {
+        margin: 40px 0;
+    }
+
+    .single_house_wrapper {
+        height: 180px;
+        width: 300px;
+        margin-right: 24px;
+        background: #f1f1f1;
+        padding: 10px;
+    }
+    .similar_house_slider {
+        white-space: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        margin-bottom: 34px;
+        display: flex;
+    }
+
+    .similar_house_name {
+        margin: 0 0 4px 0;
+        font-size: 16px;
+    }
+
+    .starting_price {
+        margin: 0 0 4px 0;
+        font-size: 14px;
+    }
+
+    .span_price {
+        color: #3F3C66;
+        font-weight: bolder;
+    }
+
+    .fixed_button {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        background-color: #FD6F56;
+        padding: 12px 0;
+        color: white;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .offer_button_pwa {
+        font-size: 17px;
+        border: 1px solid #33e7c9bf;
+        text-align: center;
+        padding: 4px 5px;
+        margin: 25px 0 0px 0;
+        box-shadow: 2px 2px lightgrey;
+    }
+
+    .offer-modal {
+        bottom: 0px;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+    }
+
+    .payment_details_pwa {
+        margin: 0 0 22px 0;
+    }
+
+    .sliding_indication {
+        width: 65px;
+        height: 40px;
+        background: #fff;
+        border: 1px solid #fd6f56;
+        text-align: center;
+        box-shadow: -10px 3px 15px lightgrey;
+        color: black;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        padding: 10px 0;
+        border-radius: 24px 0 0 24px;
+    }
+
+    .contact_wrapper {
+        margin-bottom: 80px;
+        background-color: #55b39d;
+        color: white;
+        padding: 25px 0;
+    }
+
+    .contact_wrapper h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .contact_number {
+        background-color: #26d4ac;
+        margin-bottom: 14px;
+        padding: 18px;
+        border-radius: 35px;
+        box-shadow: 2px 4px 5px #4c766c;
+    }
+
+    .single_room_type_heading_selected:after {
+        content: '';
+        width: 23px;
+        height: 23px;
+        background: #fd6f56;
+        position: absolute;
+        left: 57px;
+        transform: rotate(45deg);
+        top: 37px;
+    }
+}

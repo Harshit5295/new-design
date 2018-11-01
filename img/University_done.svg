@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="68px" viewBox="0 0 79 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="29.4942 14.326 0.0242 14.326 0.0242 0.306 29.4942 0.306 29.4942 14.326"></polygon>
+        <polygon id="path-3" points="0.158 44.326 42.895 44.326 42.895 0.868 0.158 0.868"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Book_accommodaton_1-Copy" transform="translate(-681.000000, -313.000000)">
+            <g id="Group-31" transform="translate(681.000000, 307.000000)">
+                <g id="Page-1" opacity="0.8" transform="translate(0.000000, 7.000000)">
+                    <g id="Group-27" transform="translate(0.000000, 0.067900)">
+                        <path d="M73.242,33.4707 C73.242,51.8627 58.333,66.7717 39.941,66.7717 C21.55,66.7717 6.64,51.8627 6.64,33.4707 C6.64,15.0777 21.55,0.1687 39.941,0.1687 C58.333,0.1687 73.242,15.0777 73.242,33.4707" id="Fill-1" fill="#FFAD85"></path>
+                        <path d="M1.7215,33.292 L1.7215,35.735" id="Stroke-3" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0.4998,34.5137 L2.9428,34.5137" id="Stroke-5" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M16.9363,18.8555 L16.9363,21.2985" id="Stroke-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15.7146,20.0772 L18.1576,20.0772" id="Stroke-9" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M53.4764,8.6309 L53.4764,12.6969" id="Stroke-11" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M51.4422,10.6641 L55.5092,10.6641" id="Stroke-13" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15.7146,0.1572 L15.7146,4.2242" id="Stroke-15" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M13.6814,2.1904 L17.7474,2.1904" id="Stroke-17" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M74.4051,14.4629 L74.4051,16.9059" id="Stroke-19" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M73.1834,15.6846 L75.6264,15.6846" id="Stroke-21" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M76.159,51.9805 L76.159,56.0465" id="Stroke-23" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M74.1258,54.0137 L78.1918,54.0137" id="Stroke-25" stroke="#C5BED0" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <g id="Group-47" transform="translate(19.000000, 13.067900)">
+                        <path d="M7.0242,4.2617 L36.4942,4.2617 L7.0242,4.2617 Z" id="Stroke-28" stroke="#332E48" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-33" transform="translate(7.000000, 30.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-31"></g>
+                            <polyline id="Fill-30" fill="#C5BED0" mask="url(#mask-2)" points="0.0242 37.5 0.0242 0.306 29.4942 0.306 29.4942 37.5"></polyline>
+                            <polyline id="Stroke-32" stroke="#332E48" mask="url(#mask-2)" points="0.0242 37.5 0.0242 0.306 29.4942 0.306 29.4942 37.5"></polyline>
+                        </g>
+                        <path d="M21.0389,27.0127 C27.1259,27.0127 32.0779,22.0617 32.0779,15.9737 C32.0779,9.8857 27.1259,4.9337 21.0389,4.9337 C14.9519,4.9337 9.9999,9.8857 9.9999,15.9737 C9.9999,22.0617 14.9519,27.0127 21.0389,27.0127" id="Fill-34" fill="#FFFFFF"></path>
+                        <path d="M21.0389,27.0127 C27.1259,27.0127 32.0779,22.0617 32.0779,15.9737 C32.0779,9.8857 27.1259,4.9337 21.0389,4.9337 C14.9519,4.9337 9.9999,9.8857 9.9999,15.9737 C9.9999,22.0617 14.9519,27.0127 21.0389,27.0127 Z" id="Stroke-36" stroke="#332E48" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-40" transform="translate(7.000000, 30.000000)" stroke="#332E48" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline id="Stroke-38" points="0.0242 17 0.0242 0.306 29.4942 0.306 29.4942 17"></polyline>
+                        </g>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-42"></g>
+                        <polygon id="Fill-41" fill="#C5BED0" mask="url(#mask-4)" points="11.289 9.86 30.788 9.86 30.788 4.261 11.289 4.261"></polygon>
+                        <polygon id="Stroke-43" stroke="#332E48" mask="url(#mask-4)" points="11.289 9.86 30.788 9.86 30.788 4.261 11.289 4.261"></polygon>
+                        <path d="M35.3904,4.2617 L35.3904,14.7337" id="Stroke-44" stroke="#332E48" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-4)"></path>
+                        <path d="M35.3902,15.9094 C34.5802,15.9094 33.9222,15.2524 33.9222,14.4414 C33.9222,13.6304 34.5802,12.9734 35.3902,12.9734 C36.2022,12.9734 36.8592,13.6304 36.8592,14.4414 C36.8592,15.2524 36.2022,15.9094 35.3902,15.9094 Z" id="Fill-45" fill="#C5BED0" mask="url(#mask-4)"></path>
+                        <path d="M36.8592,14.4414 C36.8592,15.2524 36.2022,15.9094 35.3902,15.9094 C34.5802,15.9094 33.9222,15.2524 33.9222,14.4414 C33.9222,13.6304 34.5802,12.9734 35.3902,12.9734 C36.2022,12.9734 36.8592,13.6304 36.8592,14.4414 Z" id="Stroke-46" stroke="#332E48" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+                <rect id="Rectangle-3" x="0" y="0" width="80" height="80"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

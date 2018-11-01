@@ -1,0 +1,1214 @@
+<html>
+
+<head>
+    <title>Details Page</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style-2.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="img/Screenshot.png" width="100%" alt="" style="position: fixed; top: 0; z-index: 99;">
+        <div class="container">
+            <div class="row breadcrumb_row">
+                <div class="col-xs-12">
+                    <div>
+                        <p>Home / Property List / The Lyra</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="menubar_wrapper">
+                        <ul class="menubar_ul">
+                            <li class="styled_list">OVERVIEW</li>
+                            <li id="roomType">ROOM TYPE</li>
+                            <li>NEARBY LOCATIONS</li>
+                            <li>WHAT WE LOVE</li>
+                            <li>UNIVERSITIES</li>
+                            <li>BOOKING PROCEDURE</li>
+                            <li>SIMILAR ACCOMMODATIONS</li>
+                            <li>BLOGS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="desktop_only">
+        <div class="container">
+            <div class="overview_wrapper">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h3 class="prop_name">The Lyra</h3>
+                        <p class="prop_address">783 George St, Sydney NSW 2000, Australia</p>
+                        <p class="prop_offer">Amazon voucher of worth $80 on booking before 1st November</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align: right;">
+                        <div>
+                            <img src="img/wishlist_border.svg" alt="" style="margin: 0 12px;">
+                            <img src="img/share.svg" alt="" style="margin: 0 12px;">
+                            <button class="btn btn-primary compare_button">Add To Compare</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/hero-image.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/hero-image.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/hero-image.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div style="text-align: center; position: relative; bottom: 24px; background: #0d0d0dc7; color: white; font-family: Open Sans; padding: 0 15px; cursor: pointer;">View
+                            16 more photos</div>
+
+                        <div style="display: flex; margin: 0;">
+                            <div>
+                                <p class="normal_headings">Property Category</p>
+                                <p style="margin: 0; font-size: 13px; letter-spacing: 0.1px; line-height: 18px; color: #30343f; font-family: Open Sans;">PBSA</p>
+                            </div>
+
+                            <div style="margin: 0 40px;">
+                                <p class="normal_headings">Dist. from City</p>
+                                <p style="margin: 0; font-size: 13px; letter-spacing: 0.1px; line-height: 18px; color: #30343f; font-family: Open Sans;">5.6
+                                    miles
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="normal_headings">starts at</p>
+                                <p style="color: #46267C;font-family: Open Sans;font-size: 16px;letter-spacing: 0.1px; line-height: 22px; font-weight: 600;">£255/week</p>
+                            </div>
+                        </div>
+
+                        <h2 class="property_desc_heading">Studio Apartments and En Suites </h2>
+                        <p class="about_property">Residents can live comfortably in the stylish and spacious studio apartments
+                            with fitted kitchens and en-suite bath or shower rooms. The studios offer stylish self-contained
+                        </p>
+
+                        <p style="margin: 14px 0 8px 0; font-size: 13px; color: #FD6F56;">Read More</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h4 class="section_headings" style="margin: 0;">Nearby Universities</h4>
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>University</th>
+                                    <th>Distance</th>
+                                    <th>Transport</th>
+                                    <th>Walking</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SOAS University of London</td>
+                                    <td>5.6 miles</td>
+                                    <td>22 mins</td>
+                                    <td>2hrs 20 mins</td>
+                                </tr>
+                                <tr>
+                                    <td>SOAS University of London</td>
+                                    <td>5.6 miles</td>
+                                    <td>22 mins</td>
+                                    <td>2hrs 20 mins</td>
+                                </tr>
+                                <tr>
+                                    <td>SOAS University of London</td>
+                                    <td>5.6 miles</td>
+                                    <td>22 mins</td>
+                                    <td>2hrs 20 mins</td>
+                                </tr>
+                                <tr>
+                                    <td>SOAS University of London</td>
+                                    <td>5.6 miles</td>
+                                    <td>22 mins</td>
+                                    <td>2hrs 20 mins</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin: 35px 0 20px 0;">
+                            <h4 class="section_headings">Amenities</h4>
+                            <ul style="list-style-type: none; padding: 0; display: flex;">
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin: 35px 0 20px 0;">
+                            <h4 class="section_headings">Rent Includes</h4>
+                            <ul style="list-style-type: none; padding: 0; display: flex;">
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin: 35px 0 20px 0;">
+                            <h4 class="section_headings">Safety and Security</h4>
+                            <ul style="list-style-type: none; padding: 0; display: flex;">
+                                <li style="font-size: 14px; width: 219px;"><img class="amenity_image" src="https://www.universityliving.com/img/Amenity icon/uniliv_furnished_icon.svg"
+                                        width="15px;">Furnished</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="roomType" class="room_type_wrapper">
+                <h3>Room Types</h3>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/dummy-cat.jpg" alt="" width="100%">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h6 style="font-size: 20px; font-weight: 600;">Studio</h6>
+                        <p>A studio is a private, self-contained unit that comes with an ensuite bathroom, open kitchen areas.
+                            Studios with larger beds may be occupied by more than one person, and are ideal for couples.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="room_category_wrapper">
+                    <h3 style="font-size: 14px;font-weight: 600; padding: 0 15px;">Bronze Studio</h3>
+                    <div class="row" style="margin: 15px 0 0 0;">
+                        <div class="col-lg-3">
+                            <p style="margin: 0 0 10px 0;">Amenities</p>
+                            <div style="margin-bottom: 16px;">
+                                <div>
+                                    <img src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" width="15px;" style="margin-right: 7px;" alt="" title="Furnished">
+                                    <span style="font-size: 14px;">Twin Ensuite Bedroom</span>
+                                </div>
+                                <div>
+                                    <img src="img/Amenity icon/uniliv_furnished_icon.svg" width="15px;" style="margin-right: 7px;" alt="" title="Furnished">
+                                    <span style="font-size: 14px;">Fully fitted Kitched</span>
+                                </div>
+                                <div>
+                                    <img src="img/Amenity icon/uniliv_breakfast_icon.svg" width="15px;" style="margin-right: 7px;" alt="" title="Furnished">
+                                    <span style="font-size: 14px;">Breakfast Included</span>
+                                </div>
+                                <div>
+                                    <img src="img/Amenity icon/uniliv_cleaning_icon.svg" width="15px;" style="margin-right: 7px;" alt="" title="Furnished">
+                                    <span style="font-size: 14px;">Cleaning Free for 3 months</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p style="margin: 0 0 10px 0;">Area
+                                    <span style="font-size: 13px;">21 sqm</span>
+                                </p>
+                            </div>
+
+                            <div style="font-size: 14px; background-color: #3F3C66; color: white; padding: 4px;">
+                                Uber Eats Voucher worth $30 on booking before November 1st, 2018
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p>Select Tenancy</p>
+                            <ul style="padding: 0; list-style-type: none;" class="tenancy_listing">
+                                <li class="active_tenancy">Move in Sep 8, 2018 till Aug 31, 2019 | 51 weeks</li>
+                                <li>Move in Sep 8, 2018 till Aug 31, 2019 | 51 weeks</li>
+                                <li>Move in Sep 8, 2018 till Aug 31, 2019 | 51 weeks</li>
+                                <li>Move in Sep 8, 2018 till Aug 31, 2019 | 51 weeks</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <p style="margin: 0 0 10px 0;">Pricing</p>
+                            <ul style="padding: 0; list-style-type: none;">
+                                <li>
+                                    <strike style="color: #46267C;" class="room_price">£255/week</strike>
+                                    <p style="color: #32b496; margin: 0 0 10px 0;" class="room_price">£245/week</p>
+                                </li>
+
+                                <li>
+                                    <strike style="color: #46267C;" class="room_price">£255/week</strike>
+                                    <p style="color: #32b496; margin: 0 0 10px 0;" class="room_price">£245/week</p>
+                                </li>
+
+                                <li>
+                                    <strike style="color: #46267C;" class="room_price">£255/week</strike>
+                                    <p style="color: #32b496; margin: 0 0 10px 0;" class="room_price">£245/week</p>
+                                </li>
+
+                                <li>
+                                    <strike style="color: #46267C;" class="room_price">£255/week</strike>
+                                    <p style="color: #32b496; margin: 0 0 10px 0;" class="room_price">£245/week</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <img src="img/dummy-cat.jpg" alt="" width="100%">
+                            <div style="text-align: center; background: #0d0d0dc7; color: white; font-family: Open Sans; padding: 0 15px; cursor: pointer;">View16
+                                more photos</div>
+                            <div style="margin-top: 16px; border: 1px solid; padding: 12px; background: white;">
+                                <p style="margin: 0; font-size: 14px;">Room Type: <span style="margin-left: 8px">Bronze Studio</span></p>
+                                <p style="margin: 10px 0; font-size: 14px;">Tenancy: <span style="margin-left: 8px">Move
+                                        in Sep 15, 2018 till Jul 13, 2019 | 43 weeks</span></p>
+                                <button class="btn btn-primary enquire_button" data-toggle="modal" data-target=".bd-example-modal-lg">ENQUIRE</button>
+                                <button class="btn btn-primary book_button">BOOK NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content" style="padding: 40px; background-color: #F5F6F6;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <h4 style="text-align: center;">Enquire For</h4>
+                                            <p style="text-align: center;">Tribeca on the Creek Condominiums Dallas, Texas,
+                                                US
+                                            </p>
+                                            <img src="img/dummy-cat.jpg" width="100%" alt="">
+                                        </div>
+                                        <div class="col-lg-7">
+                                            <form action="">
+                                                <div style="display: flex; margin: 0 0 22px 0;">
+                                                    <div style="margin-right: 15px;">
+                                                        <label for="">FIRST NAME</label><br>
+                                                        <input type="text" name="" id="">
+                                                    </div>
+                                                    <div>
+                                                        <label for="">LAST NAME</label><br>
+                                                        <input type="text" name="" id="">
+                                                    </div>
+                                                </div>
+
+                                                <div style="display: flex; margin: 0 0 22px 0;">
+                                                    <div style="margin-right: 15px;">
+                                                        <label for="">EMAIL</label><br>
+                                                        <input type="text" name="" id="">
+                                                    </div>
+                                                    <div>
+                                                        <label for="">CONTACT NUMBER</label><br>
+                                                        <input type="text" name="" id="">
+                                                    </div>
+                                                </div>
+
+                                                <div style="margin: 0 0 22px 0;">
+                                                    <label for="">UNIVERSITY</label><br>
+                                                    <input type="text" name="" id="">
+                                                </div>
+
+                                                <div>
+                                                    <label for="">MESSAGE</label><br>
+                                                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                                                </div>
+
+                                                <button style="margin-top: 20px; width: 100%;" class="btn btn-primary book_button">SUBMIT</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="room_category_wrapper">
+                    <h3 style="font-size: 14px;font-weight: 600; padding: 0 15px;">Silver Studio</h3>
+                    <div class="row" style="margin: 15px 0 0 0;">
+                        <div class="col-lg-3">
+                            <p style="margin: 0 0 10px 0;">Amenities</p>
+                            <div style="margin-bottom: 16px;">
+                                <div>
+                                    <img src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" width="15px;" style="margin-right: 7px;" alt="" title="Furnished">
+                                    <span style="font-size: 14px;">Twin Ensuite Bedroom</span>
+                                </div>
+                                <div>
+                                    <img src="img/Amenity icon/uniliv_furnished_icon.svg" width="15px;" style="margin-right: 7px;" alt="" title="Furnished">
+                                    <span style="font-size: 14px;">Fully fitted Kitched</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p style="margin: 0 0 10px 0;">Area
+                                    <span style="font-size: 13px;">46 sqm</span>
+                                </p>
+                            </div>
+
+                            <div style="font-size: 14px; background-color: #3F3C66; color: white; padding: 4px;">
+                                $50 Cashback
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p>Select Tenancy</p>
+                            <ul style="padding: 0; list-style-type: none;" class="tenancy_listing">
+                                <li class="">Move in Sep 8, 2018 till Aug 31, 2019 | 51 weeks</li>
+                                <li>Move in Sep 8, 2018 till Aug 31, 2019 | 51 weeks</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <p style="margin: 0 0 10px 0;">Pricing</p>
+                            <ul style="padding: 0; list-style-type: none;">
+                                <li>
+                                    <strike style="color: #46267C;" class="room_price">£255/week</strike>
+                                    <p style="color: #32b496; margin: 0 0 10px 0;" class="room_price">£245/week</p>
+                                </li>
+
+                                <li>
+                                    <strike style="color: #46267C;" class="room_price">£255/week</strike>
+                                    <p style="color: #32b496; margin: 0 0 10px 0;" class="room_price">£245/week</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <img src="img/dummy-cat.jpg" alt="" width="100%">
+                            <div style="text-align: center; background: #0d0d0dc7; color: white; font-family: Open Sans; padding: 0 15px; cursor: pointer;">View16
+                                more photos</div>
+                            <!-- <div style="margin-top: 16px; border: 1px solid; padding: 12px; background: white;">
+                                <p style="margin: 0; font-size: 14px;">Room Type: <span style="margin-left: 8px">Bronze Studio</span></p>
+                                <p style="margin: 10px 0; font-size: 14px;">Price: <span style="margin-left: 8px">$230/week</span></p>
+                                <button class="btn btn-primary enquire_button">ENQUIRE</button>
+                                <button class="btn btn-primary book_button">BOOK NOW</button>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="what_we_love_wrapper" style="margin: 0 0 40px 0;">
+                <h3>What We Love</h3>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul style="list-style-type: decimal;">
+                            <li>You will find that the property has a full range of regular social events for their residents
+                                with a fully functioning 24 hour TV lounge that can be used for socializing.</li>
+                            <li>You will find that the beds are bigger than the ones in most students’ accommodations.</li>
+                            <li>You will find all the facilities that you will need at this property, along with a number
+                                of restaurants and cafes in the vicinity.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="universities_wrapper" style="margin: 0 0 40px 0;">
+                <h3>Distance from Universities</h3>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div style="margin: 16px 0;">
+                            <p style="margin: 0">UNIVERSITY</p>
+                            <select>
+                                <option value="volvo">Camberwell College of London, Camberwell College</option>
+                                <option value="saab">London Scholl of Business</option>
+                                <option value="opel">London school of polical science</option>
+                                <option value="audi">City University London</option>
+                            </select>
+                        </div>
+
+                        <div style="margin: 16px 0; display: flex;">
+                            <div>
+                                <p style="margin: 0">CAMPUS</p>
+                                <select>
+                                    <option value="volvo">Guys's Campus</option>
+                                    <option value="saab">Wilson Road Campus</option>
+                                </select>
+                            </div>
+                            <div style="margin: 0 20px;">
+                                <p style="margin: 0">DISTANCE (IN MILES)</p>
+                                <p style="border: 1px solid; padding: 7px 6px;">4.6 miles</p>
+                            </div>
+                        </div>
+
+                        <div style="margin: 16px 0;">
+                            <p style="margin: 0">NEARBY LOCATIONS</p>
+                            <select>
+                                <option value="volvo">Gym</option>
+                                <option value="saab">Church</option>
+                                <option value="opel">Restuarant</option>
+                                <option value="audi">Club</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-7">
+                        <img src="img/map-new.jpg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="booking_procedure_wrapper" style="margin: 0 0 40px 0;">
+                <h3>Booking Procedure</h3>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p style="margin: 15px 0 10px 0;">Prodedure</p>
+                        <p>1. Choose the room type and tenancy period for your accommodation.</p>
+                        <p>2. Fill in your personal details and submit.</p>
+
+                        <p style="margin: 35px 0 10px 0;">Payment Details</p>
+                        <p>1. The listed prices are per person, per week.</p>
+                        <p>2. The rent may be paid via debit/credit cards or bank transfer.</p>
+                        <p>3. The rent may be paid in four instalments with a UK based guarantor or three instalments without
+                            UK based guarantor.</p>
+                        <p>4. Discounted prices are applicable when rent is paid in full.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="similar_accommodations_wrapper" style="margin: 0 0 40px 0;">
+                <h3>Similar Accommodations</h3>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="sa_image_wrapper">
+                            <img class="sa_image" src="img/dummy-cat.jpg" alt="" width="100%">
+                        </div>
+                        <p class="sa_name">iQ Bankside</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="sa_image_wrapper">
+                            <img class="sa_image" src="img/dummy-cat.jpg" alt="" width="100%">
+                        </div>
+                        <p class="sa_name">iQ Bankside</p>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="sa_image_wrapper">
+                            <img class="sa_image" src="img/dummy-cat.jpg" alt="" width="100%">
+                        </div>
+                        <p class="sa_name">iQ Bankside</p>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="sa_image_wrapper">
+                            <img class="sa_image" src="img/dummy-cat.jpg" alt="" width="100%">
+                        </div>
+                        <p class="sa_name">iQ Bankside</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related_blogs_wrapper" style="margin: 0 0 40px 0;">
+                <h3>Blogs</h3>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single_blog_wrapper">
+                            <img src="img/blog-dummy.jpg" alt="" width="100%">
+                            <h4 style="font-size: 21px; font-weight: 600; margin: 10px 0 0 0;">How to Find Your Second Year
+                                Home
+                            </h4>
+                            <p>Saturday, May 26, 2018</p>
+                            <p>Congratulations on acing your first year at uni! If you’re planning to move out of </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="single_blog_wrapper">
+                            <img src="img/blog-dummy.jpg" alt="" width="100%">
+                            <h4 style="font-size: 21px; font-weight: 600; margin: 10px 0 0 0;">How to Find Your Second Year
+                                Home
+                            </h4>
+                            <p>Saturday, May 26, 2018</p>
+                            <p>Congratulations on acing your first year at uni! If you’re planning to move out of </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="single_blog_wrapper">
+                            <img src="img/blog-dummy.jpg" alt="" width="100%">
+                            <h4 style="font-size: 21px; font-weight: 600; margin: 10px 0 0 0;">How to Find Your Second Year
+                                Home
+                            </h4>
+                            <p>Saturday, May 26, 2018</p>
+                            <p>Congratulations on acing your first year at uni! If you’re planning to move out of </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mobile_only">
+        <div class="pwa_hero_image">
+            <img src="img/dummy-cat.jpg" alt="" width="100%">
+            <div style="text-align: center; background: #0d0d0dc7; color: white; font-family: Open Sans; padding: 10px 0; cursor: pointer;">
+                <span>
+                    <img src="img-dw/picture.svg" alt="" width="20px">
+                </span>View 16 more photos
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <p style="margin: 10px 0 0 0; font-size: 20px; font-weight: 700; font-family: Open Sans;">The Lyra</p>
+                        <div style="position: absolute; right: 15px; top: 30px;">
+                            <img src="img-dw/street-view-2.png" alt="" width="40px">
+                            <p class="street_text">Street<br>View</p>
+                        </div>
+                        <p style="margin: 0 0 10px 0; font-size: 16px; font-weight: 400; font-family: Open Sans;">9 Frying
+                            Pan Alley, London E1 7HS, UK</p>
+                        <p>starts at <span style="color: #46267C; font-weight: bold;">A$245/week</span></p>
+
+                        <div class="offer_wrapper_pwa">
+                            <div style="text-align: center;" data-toggle="modal" data-target="#exampleModal">
+                                <img src="img-dw/gift-new.svg" alt="" width="30px" height="65px" style="margin: 0 7px;">
+                                <span>3 Exclusive Offers <img style="margin: 0 7px;" src="img-dw/information.svg" alt="" width="20px"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="street_view">
+                See Street View
+            </div>
+        </div>
+
+        <!-- <div class="row" style="white-space: nowrap; overflow-x: auto;">
+            <div class="col-xs-12">
+                <div class="menubar_pwa">
+                    <ul style="padding: 0; list-style-type: none; display: flex;">
+                        <li class="">OVERVIEW</li>
+                        <li id="roomType">ROOM TYPE</li>
+                        <li>NEARBY LOCATIONS</li>
+                        <li>WHAT WE LOVE</li>
+                        <li>UNIVERSITIES</li>
+                        <li>BOOKING PROCEDURE</li>
+                        <li>SIMILAR ACCOMMODATIONS</li>
+                        <li>BLOGS</li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="nearby_uni_wrapper_pwa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <p>Ideal for students in</p>
+                        <div class="sliding_indication"> > </div>
+                        <div style="padding: 0; display: flex; white-space: nowrap; overflow-x: auto;">
+                            <div class="single_nearby_card">
+                                <p class="nearby_university_name">SOAS, London</p>
+                                <div class="nearby_icons_wrapper" style="display: flex;">
+                                    <div style="display: inline-block; width: 120px;">
+                                        <img style="margin-right: 5px;" src="img-dw/road.svg" alt="" width="30px"><span>5.6
+                                            miles
+                                        </span>
+                                    </div>
+                                    <div style="display: inline-block; width: 120px;">
+                                        <img style="margin-right: 5px;" src="img-dw/bus-front.svg" alt="" width="25px"><span>5.6
+                                            miles
+                                        </span>
+                                    </div>
+                                    <div style="display: inline-block; width: 120px;">
+                                        <img style="margin-right: 5px;" src="img-dw/walk.svg" alt="" width="25px"><span>5.6
+                                            miles
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single_nearby_card">
+                                <p class="nearby_university_name">London School of Economics and Political Science</p>
+                                <div class="nearby_icons_wrapper" style="display: flex;">
+                                    <div style="display: inline-block; width: 120px;">
+                                        <img style="margin-right: 5px;" src="img-dw/road.svg" alt="" width="30px"><span>5.6
+                                            miles
+                                        </span>
+                                    </div>
+                                    <div style="display: inline-block; width: 120px;">
+                                        <img style="margin-right: 5px;" src="img-dw/bus-front.svg" alt="" width="25px"><span>5.6
+                                            miles
+                                        </span>
+                                    </div>
+                                    <div style="display: inline-block; width: 120px;">
+                                        <img style="margin-right: 5px;" src="img-dw/walk.svg" alt="" width="25px"><span>5.6
+                                            miles
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="facilities_wrapper_pwa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <p>Amenities</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div style="width: 50%" class="col-sm-6 col-xs-6">
+                        <div class="single_facility_wrapper">
+                            <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                            <span>Furnished</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 50%" class="col-sm-6 col-xs-6">
+                        <div class="single_facility_wrapper">
+                            <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                            <span>Furnished</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 50%" class="col-sm-6 col-xs-6">
+                        <div class="single_facility_wrapper">
+                            <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                            <span>Furnished</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 50%" class="col-sm-6 col-xs-6">
+                        <div class="single_facility_wrapper">
+                            <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                            <span>Furnished</span>
+                        </div>
+                    </div>
+
+                    <div style="width: 50%" class="col-sm-6 col-xs-6">
+                        <div class="single_facility_wrapper">
+                            <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                            <span>Furnished</span>
+                        </div>
+                    </div>
+                </div>
+
+                <details>
+                    <summary>View More Facilities</summary>
+                    <div style="margin: 18px 0;">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12">
+                                <p>Rent Includes</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div style="width: 50%" class="col-sm-6 col-xs-6">
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Furnished</span>
+                                </div>
+                            </div>
+
+                            <div style="width: 50%" class="col-sm-6 col-xs-6">
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Furnished</span>
+                                </div>
+                            </div>
+
+                            <div style="width: 50%" class="col-sm-6 col-xs-6">
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Furnished</span>
+                                </div>
+                            </div>
+
+                            <div style="width: 50%" class="col-sm-6 col-xs-6">
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Furnished</span>
+                                </div>
+                            </div>
+
+                            <div style="width: 50%" class="col-sm-6 col-xs-6">
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Furnished</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <p>Safety and Security</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div style="width: 50%" class="col-sm-6 col-xs-6">
+                            <div class="single_facility_wrapper">
+                                <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                <span>Furnished</span>
+                            </div>
+                        </div>
+
+                        <div style="width: 50%" class="col-sm-6 col-xs-6">
+                            <div class="single_facility_wrapper">
+                                <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                <span>Furnished</span>
+                            </div>
+                        </div>
+
+                        <div style="width: 50%" class="col-sm-6 col-xs-6">
+                            <div class="single_facility_wrapper">
+                                <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                <span>Furnished</span>
+                            </div>
+                        </div>
+
+                        <div style="width: 50%" class="col-sm-6 col-xs-6">
+                            <div class="single_facility_wrapper">
+                                <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                <span>Furnished</span>
+                            </div>
+                        </div>
+
+                        <div style="width: 50%" class="col-sm-6 col-xs-6">
+                            <div class="single_facility_wrapper">
+                                <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                <span>Furnished</span>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+
+            </div>
+        </div>
+
+        <div class="room_type_wrapper_pwa">
+            <p style="margin: 0 0 12px 0; padding: 15px; background: #00B8A0;color: white;font-weight: 700;letter-spacing: 0.1px;">Room
+                Types
+            </p>
+            <div class="container">
+                <div class="row" style="margin-bottom: 12px;">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="types_wrapper_pwa">
+                            <div class="single_room_type_heading_selected">
+                                Ensuite
+                            </div>
+
+                            <div class="single_room_type_heading">
+                                Studio
+                            </div>
+
+                            <div class="single_room_type_heading">
+                                Apartments
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="background: #f1f1f1;">
+                <div class="container">
+                    <div class="single_room_type_dec_wrapper">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12">
+                                <p>Premium Ensuite</p>
+                                <img src="img/dummy-cat.jpg" alt="" width="100%">
+                                <p style="background: #282B2E;color: white;text-align: center;margin: 0 0 12px 0;padding: 6px 0;font-size: 14px;">View
+                                    6 more photos</p>
+                                <!-- <div class="offer_wrapper_pwa">
+                                    <div style="margin-right: 18px">
+                                        <img src="img-dw/gift-new.svg" alt="" width="50px" height="65px">
+                                    </div>
+                                    <div>
+                                        Uber Eats Voucher worth $30 on booking before November 1st, 2018
+                                    </div>
+                                </div> -->
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Twin Ensuite Bedroom</span>
+                                </div>
+
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Fully fitted Kitchen</span>
+                                </div>
+
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Breakfast Included</span>
+                                </div>
+
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Cleaning Free for 3 months</span>
+                                </div>
+
+                                <p><img src="img-dw/select.svg" alt="" width="25px;" style="margin-right: 6px"> 21 sqm</p>
+
+                                <div class="tenancy_options_pwa">
+                                    <p>Select tenancy</p>
+                                    <div class="single_available_tenancy">
+                                        <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in Sep
+                                            8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                        <div style="display: flex;">
+                                            <div style="display: flex;">
+                                                <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-primary book_button">BOOK NOW</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <details>
+                                        <summary>View More options</summary>
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                            <div class="offer_button_pwa" data-toggle="modal" data-target="#exampleModal">
+                                                <img src="img-dw/package.svg" alt="" width="35px;"> 3 offers available 
+                                                <img src="img-dw/information.svg" alt="" width="20px" style="margin: 0 7px;">
+                                            </div>
+                                        </div>
+
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: #f1f1f1;">
+                <div class="container">
+                    <div class="single_room_type_dec_wrapper">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12">
+                                <p>Premium Ensuite</p>
+                                <img src="img/dummy-cat.jpg" alt="" width="100%">
+                                <p style="background: #282B2E;color: white;text-align: center;margin: 0 0 12px 0;padding: 6px 0;font-size: 14px;">View
+                                    6 more photos</p>
+
+                                <!-- <div class="offer_wrapper_pwa">
+                                    <div style="margin-right: 18px">
+                                        <img src="img-dw/gift-new.svg" alt="" width="50px" height="65px">
+                                    </div>
+                                    <div>
+                                        Uber Eats Voucher worth $30 on booking before November 1st, 2018
+                                    </div>
+                                </div> -->
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Twin Ensuite Bedroom</span>
+                                </div>
+
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Fully fitted Kitchen</span>
+                                </div>
+
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Breakfast Included</span>
+                                </div>
+
+                                <div class="single_facility_wrapper">
+                                    <img class="amenity_icon" src="img/Amenity icon/uniliv_24-7 Dedicated_icon.svg" alt="">
+                                    <span>Cleaning Free for 3 months</span>
+                                </div>
+
+                                <p><img src="img-dw/select.svg" alt="" width="25px;" style="margin-right: 6px"> 21 sqm</p>
+
+                                <div class="tenancy_options_pwa">
+                                    <p>Select tenancy</p>
+                                    <div class="single_available_tenancy">
+                                        <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in Sep
+                                            8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                        <div style="display: flex;">
+                                            <div style="display: flex;">
+                                                <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-primary book_button tenancy_book">BOOK NOW</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <details>
+                                        <summary>View More options</summary>
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button tenancy_book">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                            <div class="offer_button_pwa" data-toggle="modal" data-target="#exampleModal">
+                                                <img src="img-dw/package.svg" alt="" width="35px;"> 3 offers available 
+                                                <img src="img-dw/information.svg" alt="" width="20px" style="margin: 0 7px;">
+                                            </div>
+                                        </div>
+
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button tenancy_book">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button tenancy_book">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="single_available_tenancy">
+                                            <p style="font-size: 13px; font-family: Open Sans; margin: 0 0 6px 0;">Move in
+                                                Sep 8, 2018 till Aug 31, 2019 | 51 weeks</p>
+                                            <div style="display: flex;">
+                                                <div style="display: flex;">
+                                                    <strike class="room_price_pwa" style="color: #46267C">$250/week</strike>
+                                                    <p class="room_price_pwa" style="margin: 0 10px; color:#32b496">$230/week</p>
+                                                </div>
+                                                <div>
+                                                    <button class="btn btn-primary book_button tenancy_book">BOOK NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="what_we_love_wrapper_pwa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h5>What We Love</h5>
+                        <ul style="list-style-type: decimal; padding: 0 0 0 20px; ">
+                            <li>The listed prices are per person, per week.</li>
+                            <li>The rent may be paid via debit/credit cards or bank transfer.</li>
+                            <li>The rent may be paid in four instalments with a UK based guarantor or three instalments without
+                                UK based guarantor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map_wrapper_pwa">
+            <img src="img-dw/map-ss.jpg" alt="" width="100%" style="margin-bottom: 18px;">
+        </div>
+
+        <div class="payment_details_pwa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h5>Payment Details</h5>
+                        <ul style="list-style-type: decimal; padding: 0 0 0 20px; ">
+                            <li>The listed prices are per person, per week.</li>
+                            <li>The rent may be paid via debit/credit cards or bank transfer.</li>
+                            <li>The rent may be paid in four instalments with a UK based guarantor or three instalments without
+                                UK based guarantor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about_property_wrapper_pwa" style="margin-bottom: 50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <h5>About Property</h5>
+                        <p class="about_property_pwa">The extremely high-quality student 
+                                accommodation, iQ Shoreditch, is for those students who wish to indulge
+                                in a limerse themselves in the high- speed 
+                        </p>
+                            <p style="color: #FD6F56; font-size: 12px;">Read More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="similar_house_wrapper_pwa">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h5>Similar Accommodations</h5>
+                        <div class="similar_house_slider">
+                            <div class="single_house_wrapper">
+                                <div class="similar_house_image_wrapper">
+                                    <img src="img/dummy-cat.jpg" alt="" width="100%">
+                                </div>
+                                <p class="similar_house_name">Urbanest square</p>
+                                <p class="starting_price">starts at <span class="span_price">A$456/week</span></p>
+                            </div>
+
+                            <div class="single_house_wrapper">
+                                <div class="similar_house_image_wrapper">
+                                    <img src="img/dummy-cat.jpg" alt="" width="100%">
+                                </div>
+                                <p class="similar_house_name">Urbanest square</p>
+                                <p class="starting_price">starts at <span class="span_price">A$456/week</span></p>
+                            </div>
+
+                            <div class="single_house_wrapper">
+                                <div class="similar_house_image_wrapper">
+                                    <img src="img/dummy-cat.jpg" alt="" width="100%">
+                                </div>
+                                <p class="similar_house_name">Urbanest square</p>
+                                <p class="starting_price">starts at <span class="span_price">A$456/week</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12" style="text-align: center;">
+                        <h2>Talk to our booking experts right row for any query</h2>
+                        <div class="contact_number">+91-1234567890</div>
+                        <div class="contact_number">+91-0987654321</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed_button">
+            Get in Touch
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog offer-modal" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Available offers</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Free Cleaning service for first month</p>
+                    <p>Free Rent for 2 weeks</p>
+                    <p>Installed Xbox</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

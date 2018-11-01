@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="398px" height="650px" viewBox="0 0 398 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.8%" y="-0.8%" width="103.6%" height="102.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="25 618 363 618 363 92 25 92"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Book_accommodaton_1-Copy-2" transform="translate(-796.000000, -487.000000)">
+            <g id="Group-29" transform="translate(800.000000, 489.000000)">
+                <g id="Group-26">
+                    <g id="Page-1" filter="url(#filter-1)">
+                        <polygon id="Fill-1" fill="#EFECF3" points="0 0 0 53.2430121 14.7478124 68 375.252188 68 390 53.2430121 390 0"></polygon>
+                        <polygon id="Fill-2" fill="#EFECF3" points="14.7478124 68 0 81.4913117 0 642 390 642 390 81.4913117 375.252188 68"></polygon>
+                        <path d="M30,68 L36,68" id="Stroke-3" stroke="#F2F2F2" stroke-width="2"></path>
+                        <path d="M28,68 L363,68" id="Stroke-4" stroke="#B1A9BF" stroke-dasharray="7.195,7.195"></path>
+                        <g id="Fill-8">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <path stroke="#B1A9BF" stroke-width="1" d="M25.5,617.5 L362.5,617.5 L362.5,92.5 L25.5,92.5 L25.5,617.5 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

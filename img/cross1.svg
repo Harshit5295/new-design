@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-32.3%" y="-25.0%" width="165.5%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0.773419355,12 C0.773419355,18.627871 6.14632258,24 12.7741935,24 C19.4012903,24 24.7741935,18.627871 24.7741935,12 C24.7741935,5.37212903 19.4012903,0 12.7741935,0 C6.14632258,0 0.773419355,5.37212903 0.773419355,12 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Compare-Property-2-Copy" transform="translate(-654.000000, -221.000000)">
+            <g id="Page-1" filter="url(#filter-1)" transform="translate(658.000000, 224.000000)">
+                <g id="Group-3">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)" points="-3.09677419 27.8709677 28.6451613 27.8709677 28.6451613 -3.87096774 -3.09677419 -3.87096774"></polygon>
+                </g>
+                <g id="Group-10" transform="translate(0.774194, 0.000000)" stroke="#FD6F56">
+                    <path d="M11.9998452,24 C18.6277161,24 23.9998452,18.627871 23.9998452,12 C23.9998452,5.37212903 18.6277161,0 11.9998452,0 C5.37197419,0 -0.00015483871,5.37212903 -0.00015483871,12 C-0.00015483871,18.627871 5.37197419,24 11.9998452,24 Z" id="Stroke-4"></path>
+                    <path d="M15.9796645,7.80696774 L8.21372903,15.5736774" id="Stroke-6"></path>
+                    <path d="M15.9796645,15.8611355 L8.21372903,8.09442581" id="Stroke-8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

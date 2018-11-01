@@ -1,0 +1,309 @@
+.place_name {
+    font-size: 22px;
+    font-family: Open Sans;
+    margin: 10px 0;
+}
+
+.place_name span {
+    font-weight: bold;
+}
+
+.listing_number {
+    font-size: 18px;
+    font-family: Open Sans;
+    margin: 16px 0 10px 0;
+}
+
+.listing_number span {
+    font-weight: bold;
+}
+
+.single_checkbox_wrapper {
+    margin-bottom: 40px;
+}
+
+.active_filter {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: #32b496;
+    box-shadow: 5px 0px 2px lightgrey;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 4px 6px 0;
+}
+
+.inactive_filter {
+    padding: 5px 8px;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #282B2E;
+    background: white;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 8px 10px 0;
+}
+
+.single_checkbox_wrapper p {
+    margin: 0 0 8px 0;
+    color: #30343f;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    border-left: 4px solid #32b496;
+    padding: 5px;
+}
+
+.filters_wrapper {
+    display: flex;
+}
+
+.checkbox_form {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+.single_applied_filter {
+    border: 1px solid #eaeaea;
+    font-size: 13px;
+    font-family: Open Sans;
+    margin-right: 10px;
+    padding: 4px;
+    box-shadow: 2px 2px lightgrey;
+}
+
+.single_applied_filter span {
+    color: #FD6F56
+}
+
+.moving_text_wrapper {
+    display: flex;
+    margin: 16px 0; 
+}
+
+.move_text_header {
+    font-family: Open Sans;
+    width: 20%;
+    color: #2cbaa0;
+}
+
+.single_move_div {
+    display: inline-block;
+    margin-right: 18px;
+    color: #46267C;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.marquee_wrapper {
+    width: 100%;
+}
+
+.offer_button {
+    font-family: Open Sans;
+    font-size: 13px;
+    position: absolute;
+    right: 46px;
+    top: 408px;
+    border: 1px solid #32b496;
+    padding: 3px 6px;
+    text-align: center;
+    border-radius: 2px;
+    background: white;
+    cursor: pointer;
+}
+
+.offer_button img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.map_wrapper {
+    width: 180px;
+    height: 100px;;
+}
+
+.price_form {
+    display: flex;
+}
+
+.apply_price {
+    background-color: #FD6F56;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.uni_dropdown {
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    height: 40px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    width: 600px;
+    margin-right: 6px;
+    margin-bottom: 14px;
+}
+
+.sort_by {
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    height: 40px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    width: 218px;
+    margin-bottom: 14px;
+}
+
+.city_header {
+    color: #30343f;
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: .1px;
+    margin: 32px 0 10px 0;
+}
+
+.city_hero_wrapper {
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.city_image {
+    width: 100%; 
+    height: 300px;
+    border-radius: 4px;
+}
+
+.about_heading {
+    margin: 14px 0 18px 0;
+    font-size: 18px;
+    font-family: Open Sans;
+    padding: 0 0 8px 0;
+    border-bottom: 2px solid #46267C;
+    width: 60px;
+}
+
+.city_desc {
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+}
+
+.read_more {
+    font-size: 14px;
+    color: #fd6f56;
+    font-family: Open Sans;
+}
+
+
+
+
+
+
+
+.listing_headline {
+    padding: 30px;
+    background-color: #F5F6F6;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.single_property_list {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact_form {
+    margin: 0 0 22px 0;
+}
+
+.form_headline {
+    padding: 0;
+    background: #55c4aa;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 900;
+    font-size: 21px;
+    margin: 10px 0 0px 0;
+    text-align: center;
+}
+
+.form_row_wrapper {
+    display: flex;
+}
+
+.single_form_field_wrapper {
+    margin-right: 22px;
+    margin-bottom: 18px;
+}
+
+.form_group {
+    padding: 18px 25px;
+    background: #f5f6f6;
+}
+
+.form_group p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    margin: 0 0 16px 0;
+}
+
+label {
+    font-size: 13px;
+    margin: 0 0 4px 0;
+    font-family: Open Sans;
+}
+
+input[type="text"] {
+    border: 1px solid #EAEAEA;
+    height: 32px;
+    width: 240px;
+    padding: 4px 8px;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    border: 1px solid #EAEAEA;
+    height: 40px;
+    width: 60px;
+    padding: 4px 8px;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.contact_button {
+    background-color: #FD6F56;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 700;
+    width: 100%;
+}

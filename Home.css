@@ -1,0 +1,741 @@
+.searchbar_wrapper_desktop {
+    background: none;
+    position: absolute;
+    top: 45%;
+    left: 14%;
+    text-align: center;
+}
+
+.searchbar_wrapper_mobile {
+    display: none;
+}
+
+.moving_text {
+    font-family: MontSerrat;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.1px;
+    line-height: 28px;
+    color: #FFF;
+}
+
+.booking_text {
+    font-family: MontSerrat;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 28px;
+    color: #FFF;
+}
+
+.video_text {
+    background: black;
+    padding: 10px;
+    margin: 16px 0;
+    color: white;
+    opacity: 0.7;
+    font-family: Open Sans;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    display: none;
+}
+
+.video_icon {
+    width: 25px;
+    margin: 0 6px;
+}
+
+.inputbox_wrapper {
+    display: flex;
+}
+
+input[type="text"] {
+    outline: none;
+    border: 1px solid #EAEAEA;
+    padding: 6px 12px;
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #000;
+    height: 60px;
+}
+
+.search_button {
+    outline: none;
+    border: none;
+    background-color: #FD6F56;
+    border-radius: 0;
+    width: 130px;
+    height: 60px;
+}
+
+.why_us_wrapper_desktop {
+    padding: 60px 0;
+    display: block;
+}
+
+.why_us_wrapper_mobile {
+    display: none;
+}
+
+.why_us_header {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+    color: #30343f;
+    font-size: 36px;
+    letter-spacing: -1.5px;
+    line-height: 43px;
+    font-family: Montserrat;
+}
+
+.why_us_short_desc {
+    margin: 0;
+    font-weight: 200;
+    color: #63768d;
+    font-size: 16px;
+    letter-spacing: -1.5px;
+    line-height: 43px;
+    font-family: Montserrat;
+}
+
+.why_us_title {
+    margin: 0 0 7px 0;
+    color: #332e48;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: .4px;
+    line-height: 24px;
+}
+
+.why_us_desc {
+    color: #6b737a;
+    font-family: Open Sans;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.top_featured_cities_wrapper {
+    padding: 30px 100px;
+}
+
+.single_city_wrapper {
+    margin: 10px 0;
+}
+
+.city_image_wrapper {
+    background-color: black;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.city_names {
+    position: absolute;
+    top: 50%;
+    font-weight: 700;
+    font-family: Open Sans;
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.city_image {
+    width: 100%;
+    opacity: 0.6;
+    border-radius: 4px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.map_wrapper {
+    padding: 50px 0;
+    display: block;
+}
+
+.testimonials_wrapper {
+    background-color: #4e467d;
+    padding: 80px 0 50px 0;
+}
+
+.testimonials_wrapper h1 {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.testimonials_wrapper h2 {
+    margin: 0 0 3   0px 0;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.prev_testimonial,
+.next_testimonial {
+    width: 125px;
+    background: black;
+    opacity: 0.6;
+    height: 30%;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.prev_testimonial:hover,
+.next_testimonial:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.single_review_wrapper {
+    text-align: center;
+    background-color: rgb(40, 39, 38);
+    color: white;
+    padding: 18px;
+}
+
+.single_review_wrapper:hover {
+    color: #FFF;
+    transition: 0.5s all;
+}
+
+.reviewer_image {
+    border-radius: 50%;
+    width: 20%;
+    margin: 0 0 15px 0;
+}
+
+.reviewer_name {
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+
+.reviewer_location {
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+.review_desc {
+    font-size: 15px;
+    font-family: Open Sans;
+    margin: 18px 0 0 0;
+}
+
+.write_review {
+    outline: none;
+    border: none;
+    background-color: #FD6F56;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    margin: 18px 0;
+}
+
+.achieve_wrapper {
+    padding: 40px 0 60px 0; 
+    background-color: #f7f7f9; 
+    margin: 0;
+}
+
+.achieve_and_map_wrapper {
+    padding: 100px 0;
+}
+
+.achieve_headings {
+    margin: 0 0 53px;
+    color: #282b2e;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rolling_number {
+    display: inline-block;
+    color: #32b496;
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 58px;
+    margin: 0 0 6px!important;
+}
+
+.number_desc {
+    color: #282b2e;
+    font-family: Open Sans;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.blogs_wrapper {
+    padding: 30px 0;
+    background: #f1f1f1;
+}
+
+.single_blog_wrapper {
+    position: relative;
+    color: white;
+    margin: 0 0 25px 0;
+}
+
+.blog_contents {
+    position: absolute;
+    top: 75%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+
+.blog_title {
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin: 15px 0px 3px;
+}
+
+.blog_body {
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-bottom: 29px;
+    text-overflow: ellipsis;
+    letter-spacing: 0.1px;
+    line-height: 22.9px;
+    position: relative;
+    display: inline-block;
+    max-height: 45px;
+    overflow: hidden;
+}
+
+.blog_image_wrapper {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.blog_image {
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.blog_section_heading {
+    margin: 0 0 40px 0;
+    color: #282b2e;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+}
+
+.more_blogs {
+    margin: 16px 0 5px 0;
+    color: #FD6F56;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    text-align: center;
+}
+
+.partner_wrapper {
+    margin: 0;
+    padding: 50px 0;
+    background-color: #f1f1f6;
+}
+
+.partner_header {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+    color: #30343f;
+    font-size: 36px;
+    letter-spacing: -1.5px;
+    line-height: 43px;
+    font-family: Montserrat;
+}
+
+.partner_desc {
+    margin: 0;
+    font-weight: 200;
+    color: #63768d;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 43px;
+    font-family: Montserrat;
+}
+
+.partner_button {
+    outline: none;
+    border: none;
+    background-color: #FD6F56;
+    border-radius: 4px;
+    width: 130px;
+    height: 50px; 
+}
+
+.pre_footer_wrapper {
+    padding: 50px 0;
+}
+
+.footer_lists {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer_lists li {
+    font-family: Open Sans;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.footer_lists li:hover {
+    background: #fd6f56;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s all;
+    color: white;
+    width: auto;
+}
+
+.featued_text {
+    margin: 20px 0 0 0;
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+}
+
+.footer_image {
+    margin: 0 10px 0 0;
+    width: 17px;
+}
+
+.footer_wrapper_desktop {
+    background-color: #f5f6f6;
+    padding: 45px 0;
+    display: block;
+}
+
+.main_footer_headings {
+    margin: 0 0 18px 0;
+    color: #303944;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.main_footer_lists {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main_footer_lists li {
+    margin-bottom: 18px;
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+.footer_country_name {
+    margin-right: 10px;
+}
+
+.pre_subscribe_text {
+    margin: 0 0 18px 0;
+    color: #303944;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.post_subscribe_text {
+    margin-bottom: 18px;
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+.subscribe_box {
+    display: flex;
+}
+
+.subscribe_input {
+    padding: 5px 6px;
+    border: 1px solid #EAEAEA;
+    outline: none;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 4px 0 0 4px;
+    height: 40px;
+}
+
+.subscribe_button {
+    background-color: #FD6F56;
+    outline: none;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    font-family: Open Sans;
+    font-weight: bolder;
+    height: 40px;
+    font-size: 12px;
+}
+
+.footer_wrapper_mobile {
+    display: none;
+}
+
+.move_top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.solutions_wrapper {
+    background-image: url("img/bg-1.png");
+    width: 100%;
+    padding: 60px 0;
+}
+
+.solution_header {
+    color: #fff;
+    font-family: MontSerrat;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -1.5px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0 0 21px 0;
+}
+
+.solution_support_text {
+    color: #fff;
+    font-family: MontSerrat;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.single_service_wrapper p {
+    color: #2c363f;
+    font-family: MontSerrat;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 14px;
+    margin: 0;
+}
+
+.single_service_wrapper {
+    background: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0 0 16px 0;
+}
+
+.single_service_wrapper img {
+    width: 100px;
+}
+
+.not_mobile {
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .solution_header {
+        font-size: 26px;
+        margin: 0 0 10px 0;
+    }
+
+    .not_mobile {
+        display: none;
+    }
+
+    .solution_support_text {
+        font-size: 15px;
+        margin: 0 0 15px 0;
+    }
+
+    .single_service_wrapper p {
+        font-size: 10px;
+    }
+
+    .single_service_wrapper {
+        margin: 15px 0;
+    }
+
+    .map_wrapper {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .website_image {
+        height: 220px;
+    }
+
+    .searchbar_wrapper_desktop {
+        display: none;
+    }
+
+    .searchbar_wrapper_mobile {
+        display: block;
+        padding: 0 20px;
+        position: absolute;
+        top: 13%;
+    }
+
+    .moving_text {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .booking_text {
+        font-size: 15px;
+    }
+
+    input[type="text"], .search_button {
+        height: 40px;
+    }
+
+    .girl_image {
+        display: none;
+    }
+
+    .why_us_wrapper_desktop {
+        display: none;
+    }
+
+    .why_us_wrapper_mobile {
+        display: block;
+        padding: 50px 0
+    }
+
+    .why_us_header {
+        font-size: 30px;
+        line-height: 22px;
+    }
+
+    .top_featured_cities_wrapper {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .pre_footer_wrapper {
+        display: none;
+    }
+
+    .col-sm-6, .col-xs-6 {
+        width: 50%;
+    }
+
+    .col-sm-4, .col-xs-4 {
+        width: 33.33%;
+    }
+
+    .fourth {
+        display: none;
+    }
+
+    .city_image {
+        height: 100px;
+    }
+
+    .achieve_wrapper {
+        padding: 30px 0; 
+        background-color: #f7f7f9; 
+        margin: 0;
+    }
+
+    .achieve_headings {
+        font-size: 30px;
+        margin: 0 0 14px 0;
+    }
+
+    .rolling_number {
+        font-size: 24px;
+        line-height: 22px;
+    }
+
+    .number_desc {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .blogs_wrapper {
+        padding: 20px 0;
+        background: #f1f1f1;
+    }
+
+    .blog_section_heading {
+        font-size: 30px;
+        margin: 0 0 22px 0;
+    }
+
+    .partner_wrapper {
+        padding: 20px 0;
+    }
+
+    .partner_header {
+        margin: 0 0 5px 0;
+        font-size: 30px;
+        letter-spacing: 0.1px;
+        line-height: 32px;
+    }
+
+    .partner_desc {
+        margin: 0 0 14px 0;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .partner_button {
+        width: 100%;
+    }
+
+    .footer_wrapper_desktop {
+        display: none;
+    }
+
+    .footer_wrapper_mobile {
+        display: block;
+        padding: 30px 0;
+        background-color: #FFF;
+    }
+
+    .pre_subscribe_text {
+        margin: 0;
+    }
+
+    .move_top {
+        display: none;
+    }
+}
