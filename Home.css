@@ -6,6 +6,17 @@
     text-align: center;
 }
 
+.fb_icons {
+    margin: 0 15px 15px 0;
+}
+
+.media_names {
+    position: relative;
+    bottom: 6px;
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
 .searchbar_wrapper_mobile {
     display: none;
 }
