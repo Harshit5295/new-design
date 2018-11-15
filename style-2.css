@@ -2,6 +2,38 @@ header {
     display: block;
 }
 
+.street_view_desktop {
+    margin-top: 20px;
+    font-family: Open Sans;
+    color: #fd6f56;
+    cursor: pointer;
+}
+
+.contact_form_wrapper_desktop {
+    background-color: #f5f6f6;
+    padding: 25px;
+    box-shadow: 2px 2px lightgrey;
+    margin: 70px 0;
+}
+
+.number_buttons {
+    border: none;
+    outline: none;
+    background-color: #26d4ac;
+    width: 250px;
+    padding: 13px;
+    margin: 12px 50px auto;;
+    border-radius: 35px;
+    box-shadow: 2px 4px 5px #4c766c;
+}
+
+.empty_divs {
+    height: 100px;
+    width: 1px;
+    border: 1px solid;
+    margin: 0px 30px;
+}
+
 .street_text {
     color: #FD6F56;
     font-size: 12px;
@@ -53,6 +85,38 @@ img {
 .menubar_wrapper {
     border-bottom: 1px solid #EAEAEA;
     margin: 15px 0 32px 0;
+}
+
+.offer_on_top_desktop {
+    padding: 10px 15px;
+    border: 2px solid #32B496;
+    color: #22a79e;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: Open Sans;
+    letter-spacing: 0.5px;
+}
+
+.offer_at_room_category_desktop {
+    display: flex;
+    font-size: 12px;
+    font-family: Open Sans;
+    border: 1px solid;
+    padding: 10px;
+    margin: 24px 0;
+    background: #3ecab8;
+    color: white;
+    font-weight: bolder;
+}
+
+.offer_at_room_category_desktop img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.offer_on_top_desktop li {
+    margin: 0 0 6px 0;
 }
 
 td, th {
@@ -109,7 +173,7 @@ th {
     font-size: 14px;
     letter-spacing: .1px;
     line-height: 19px;
-    margin: 0;
+    margin: 0 0 14px 0;
 }
 
 .prop_offer {
@@ -325,8 +389,28 @@ select {
     display: none;
 }
 
+.footer_desktop {
+    display: block;
+}
+
+.book_pro_wrapper {
+    display: flex;
+}
+
+.single_step_wrapper {
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px lightgrey;
+    padding: 10px 0;
+}
+
 @media only screen and (max-width: 992px) {
     header {
+        display: none;
+    }
+
+    .footer_desktop {
         display: none;
     }
 
