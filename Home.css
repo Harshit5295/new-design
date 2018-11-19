@@ -87,6 +87,7 @@ input[type="text"] {
 .why_us_wrapper_desktop {
     padding: 60px 0;
     display: block;
+    background: #f5f6f6;
 }
 
 .why_us_wrapper_mobile {
@@ -132,7 +133,7 @@ input[type="text"] {
 }
 
 .top_featured_cities_wrapper {
-    padding: 30px 100px;
+    padding: 80px 100px 0 100px;
 }
 
 .single_city_wrapper {
@@ -286,7 +287,7 @@ input[type="text"] {
     color: #32b496;
     font-family: MontSerrat;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 42px;
     letter-spacing: 0;
     line-height: 58px;
     margin: 0 0 6px!important;

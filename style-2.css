@@ -2,8 +2,47 @@ header {
     display: block;
 }
 
+.select_this_room {
+    border: 1px solid #32b496;
+    outline: none;
+    background: white;
+    padding: 7px 25px;
+    color: #32b496;
+}
+
+.selected_room_summary {
+    padding: 18px 15px 0 15px;
+    background: white;
+    border: 1px solid;
+    margin-top: 22px;
+}
+
+.new_offer_section {
+    border: 1px solid;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 20px;
+    top: 95px;
+}
+
+.request_button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    background: #fd6f56;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.new_offer_section img {
+    position: relative;
+    bottom: 50px;
+    right: 22px;
+}
+
 .street_view_desktop {
-    margin-top: 20px;
     font-family: Open Sans;
     color: #fd6f56;
     cursor: pointer;
@@ -88,13 +127,10 @@ img {
 }
 
 .offer_on_top_desktop {
-    padding: 10px 15px;
-    border: 2px solid #32B496;
-    color: #22a79e;
-    border-radius: 2px;
     font-size: 14px;
     font-family: Open Sans;
     letter-spacing: 0.5px;
+    margin-bottom: 18px;
 }
 
 .offer_at_room_category_desktop {
@@ -103,7 +139,6 @@ img {
     font-family: Open Sans;
     border: 1px solid;
     padding: 10px;
-    margin: 24px 0;
     background: #3ecab8;
     color: white;
     font-weight: bolder;
@@ -141,7 +176,7 @@ th {
 
 .menubar_ul li {
     display: inline-block;
-    margin: 8px 16px auto;
+    margin: 8px 10px auto;
     font-size: 13px;
     padding: 10px 0;
     font-family: Open Sans;
