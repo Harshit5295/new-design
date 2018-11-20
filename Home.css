@@ -2,7 +2,7 @@
     background: none;
     position: absolute;
     top: 45%;
-    left: 14%;
+    left: 30%;
     text-align: center;
 }
 
@@ -521,7 +521,7 @@ input[type="text"] {
 
 .move_top {
     position: fixed;
-    right: 20px;
+    right: 0px;
     bottom: 20px;
 }
 
