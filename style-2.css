@@ -346,13 +346,13 @@ select {
 .book_button {
     outline: none;
     border: 1px solid #FFF;
-    color: #FFF;
-    padding: 8px 12px;
+    color: #32b496;
+    padding: 8px 20px;
     font-family: Open Sans;
-    background-color: #FD6F56;
+    background-color: white;
     margin: 0 0 8px 0;
     font-size: 14px;
-    border: 1px solid #FD6F56;
+    border: 1px solid #32b496;
 }
 
 .compare_button {
