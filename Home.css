@@ -568,7 +568,7 @@ input[type="text"] {
     background: white;
     text-align: center;
     border-radius: 4px;
-    padding: 0 0 16px 0;
+    padding: 40px;
 }
 
 .single_service_wrapper img {
@@ -579,7 +579,23 @@ input[type="text"] {
     display: block;
 }
 
+.desktop_only {
+    display: block;
+}
+
 @media only screen and (max-width: 767px) {
+    .desktop_only {
+        display: none;
+    }
+
+    .single_service_wrapper {
+        padding: 0 0 16px 0;
+    }
+
+    .solutions_wrapper {
+        padding: 30px 0;
+    }
+
     .solution_header {
         font-size: 26px;
         margin: 0 0 10px 0;
