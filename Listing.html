@@ -13,244 +13,243 @@
 </head>
 
 <body>
-    <header>
-        <img src="img/Screenshot.png" alt="" width="100%;">
-    </header>
+    <div class="full_wrapper_listing" style="background-color: #F8F8F8;">
+        <header>
+            <img src="img/Screenshot.png" alt="" width="100%;">
+        </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="place_name">Student Accommodations in <span>London</span></h1>
-                <p class="listing_number">Showing <span>1-10</span> of <span>67</span> properties</p>
+        <div style="background-color: #FFF; box-shadow: 2px 2px 2px lightgrey; margin: 0 0 26px 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="place_name">Student Accommodations in <span>London</span></h1>
+                    </div>
+                    <div class="col-lg-6" style="text-align: right;">
+                        <p class="listing_number">Showing <span>1-10</span> of <span>67</span> properties</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="row" style="margin: 24px 0;">
-            <div class="col-lg-3">
-                <p style="font-family: Open Sans; font-weight: bolder; font-size: 16px;">Selected Filters</p>
-            </div>
-            <div class="col-lg-8">
-                <div class="filters_wrapper">
-                    <div class="single_applied_filter">Private <span>X</span></div>
-                    <div class="single_applied_filter">Study Room <span>X</span></div>
-                    <div class="single_applied_filter">Gym <span>X</span></div>
-                    <div class="single_applied_filter">4 star <span>X</span></div>
-                    <div class="single_applied_filter">Ensuite <span>X</span></div>
-                </div>
-            </div>
-            <div class="col-lg-1">
-                <p style="font-family: Open Sans; font-size: 14px; color: #FD6F56;">Clear All</p>
-            </div>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="map_wrapper">
+                        <img src="img-dw/map-listing.png" alt="" width="100%">
+                    </div>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-3">
-                <div class="map_wrapper">
-                    <img src="img-dw/map-listing.png" alt="" width="100%">
-                </div>
-
-                <div class="filters_wrapper_left_panel">
-                    <p style="margin: 22px 0 18px 0; font-family: Open Sans; font-size: 16px;">Filters</p>
-
-                    <div class="single_checkbox_wrapper">
-                        <p>Price</p>
-                        <div class="price_form">
-                            <input type="number">
-                            <input type="number">
-                            <button class="apply_price">Go</button>
+                    <div style="display: flex; margin: 22px 0 0 0;">
+                        <div>
+                            <p style="font-family: Open Sans; font-weight: bolder; font-size: 16px;">Selected Filters</p>
+                        </div>
+                        <div>
+                            <p style="font-family: Open Sans; font-size: 14px; color: #FD6F56; margin-left: 2rem;">Clear All</p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="filters_wrapper">
+                            <div class="single_applied_filter">Private <span>X</span></div>
+                            <div class="single_applied_filter">Study Room <span>X</span></div>
                         </div>
                     </div>
 
-                    <div class="single_checkbox_wrapper">
-                        <p>Distance</p>
-                        <div class="price_form">
-                            <img src="img-dw/dist-slider.png" alt="" width="80%">
-                        </div>
-                    </div>
+                    <div class="filters_wrapper_left_panel">
+                        <p style="margin: 40px 0 18px 0; font-family: Open Sans; font-size: 16px;">Filters</p>
 
-                    <div class="single_checkbox_wrapper">
-                        <p>Ratings</p>
-                        <div class="checkbox_form">
-                            <!--  <input type="checkbox">3 Star <br>
-                            <input type="checkbox">4 Star <br>
-                            <input type="checkbox">5 Star <br> -->
-
-                            <img src="img-dw/ratings.png" alt="" width="100%">
-                        </div>
-                    </div>
-
-                    <div class="single_checkbox_wrapper">
-                        <p>Room Categories</p>
-                        <div class="checkbox_form">
-                            <div class="active_filter">PBSA &nbsp; &#10004;</div>
-                            <div class="inactive_filter">Private Apartments</div>
-                        </div>
-                    </div>
-
-                    <div class="single_checkbox_wrapper">
-                        <p>Room Types</p>
-                        <div class="checkbox_form">
-                            <div style="display: flex;">
-                                <div class="inactive_filter">Studio</div>
-                                <div class="inactive_filter">Ensuite</div>
-                                <div class="inactive_filter">Shared</div>
-                            </div>
-
-                            <div style="display: flex;">
-                                <div class="inactive_filter">Apartment</div>
-                                <div class="inactive_filter">House</div>
-                                <div class="inactive_filter">Others</div>
+                        <div class="single_checkbox_wrapper">
+                            <p>Price</p>
+                            <div class="price_form">
+                                <input type="number">
+                                <input type="number">
+                                <button class="apply_price">Go</button>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="single_checkbox_wrapper">
-                        <p>Bathroom</p>
-                        <div class="checkbox_form">
-                            <div style="display: flex;">
-                                <div class="inactive_filter">Private</div>
-                                <div class="inactive_filter">Shared</div>
+                        <div class="single_checkbox_wrapper">
+                            <p>Distance</p>
+                            <div class="price_form">
+                                <img src="img-dw/dist-slider.png" alt="" width="80%">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="single_checkbox_wrapper">
-                        <p>Amenities</p>
-                        <div class="checkbox_form">
+                        <div class="single_checkbox_wrapper">
+                            <p>Ratings</p>
+                            <div class="checkbox_form">
+                                <img src="img-dw/ratings.png" alt="" width="100%">
+                            </div>
+                        </div>
+
+                        <div class="single_checkbox_wrapper">
+                            <p>Room Categories</p>
+                            <div class="checkbox_form">
+                                <div class="active_filter">PBSA &nbsp; &#10004;</div>
+                                <div class="inactive_filter">Private Apartments</div>
+                            </div>
+                        </div>
+
+                        <div class="single_checkbox_wrapper">
+                            <p>Room Types</p>
                             <div class="checkbox_form">
                                 <div style="display: flex;">
-                                    <div class="inactive_filter">Furnished</div>
-                                    <div class="inactive_filter">Cinema</div>
+                                    <div class="inactive_filter">Studio</div>
+                                    <div class="inactive_filter">Ensuite</div>
+                                    <div class="inactive_filter">Shared</div>
                                 </div>
 
                                 <div style="display: flex;">
-                                    <div class="inactive_filter">Laundry Room</div>
-                                    <div class="inactive_filter">Gym</div>
+                                    <div class="inactive_filter">Apartment</div>
+                                    <div class="inactive_filter">House</div>
+                                    <div class="inactive_filter">Others</div>
                                 </div>
+                            </div>
+                        </div>
 
+                        <div class="single_checkbox_wrapper">
+                            <p>Bathroom</p>
+                            <div class="checkbox_form">
                                 <div style="display: flex;">
-                                    <div class="inactive_filter">Study Room</div>
-                                    <div class="inactive_filter">Games Room</div>
+                                    <div class="inactive_filter">Private</div>
+                                    <div class="inactive_filter">Shared</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_checkbox_wrapper">
+                            <p>Amenities</p>
+                            <div class="checkbox_form">
+                                <div class="checkbox_form">
+                                    <div style="display: flex;">
+                                        <div class="inactive_filter">Furnished</div>
+                                        <div class="inactive_filter">Cinema</div>
+                                    </div>
+
+                                    <div style="display: flex;">
+                                        <div class="inactive_filter">Laundry Room</div>
+                                        <div class="inactive_filter">Gym</div>
+                                    </div>
+
+                                    <div style="display: flex;">
+                                        <div class="inactive_filter">Study Room</div>
+                                        <div class="inactive_filter">Games Room</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-9 col-md-9">
-                <!-- <div class="listing_headline">
-                    University Living helps you compare and book the best ensuite rooms, studios, and shared flats for students in London. Consult
-                    our 24/7 support team 100% free of charge.
-                </div> -->
+                <div class="col-lg-9 col-md-9">
 
-                <div class="moving_text_wrapper">
-                    <div class="move_text_header">Hot Properties</div>
-                    <div class="marquee_wrapper">
-                        <div class="single_move_div">The Lyra</div>
-                        <div class="single_move_div">Devonshire Street</div>
-                        <div class="single_move_div">Spring Mews</div>
-                        <div class="single_move_div">Wards Warf Approach</div>
-                        <div class="single_move_div">The Lyra</div>
-                        <div class="single_move_div">Spring Mews</div>
-                    </div>
-                </div>
-
-                <div class="dropdowns_wrapper" style="display: flex;">
-                    <div>
-                        <select name="" id="" class="uni_dropdown">
-                            <option value="" selected disabled hidden>Select University</option>
-                            <option value="">LSB</option>
-                            <option value="">KCL</option>
-                        </select>
+                    <div class="moving_text_wrapper">
+                        <div class="move_text_header">Popular Properties</div>
+                        <div class="marquee_wrapper">
+                            <div class="single_move_div">The Lyra</div>
+                            <div class="single_move_div">Devonshire Street</div>
+                            <div class="single_move_div">Spring Mews</div>
+                            <div class="single_move_div">Wards Warf Approach</div>
+                            <div class="single_move_div">The Lyra</div>
+                        </div>
                     </div>
 
-                    <div>
-                        <select name="" id="" class="sort_by">
-                            <option value="" selected disabled hidden>Sort By</option>
-                            <option value="">LSB</option>
-                            <option value="">KCL</option>
-                        </select>
-                    </div>
-                </div>
+                    <div class="dropdowns_wrapper" style="display: flex;">
+                        <div>
+                            <select name="" id="" class="uni_dropdown">
+                                <option value="" selected disabled hidden>Select University</option>
+                                <option value="">LSB</option>
+                                <option value="">KCL</option>
+                            </select>
+                        </div>
 
-                <img src="img-dw/new-list.png" alt="" class="single_property_list">
-                <div class="offer_button"><img src="img-dw/package.svg" alt=""> 3 Exclusive offers</div>
-                <img src="img-dw/new-list.png" alt="" class="single_property_list">
-                <img src="img-dw/new-list.png" alt="" class="single_property_list">
-                <img src="img-dw/new-list.png" alt="" class="single_property_list">
-                <img src="img-dw/new-list.png" alt="" class="single_property_list">
-
-                <img src="img-dw/pagination.png" alt="" width="100%" style="margin: 20px 0;">
-
-                <div class="contact_form">
-                    <div class="form_headline">
-                        <img src="img-dw/smartphone.svg" alt="" width="50px;"> Can't find what you are looking for? Get in
-                        touch with our experts!
+                        <div>
+                            <select name="" id="" class="sort_by">
+                                <option value="" selected disabled hidden>Sort By</option>
+                                <option value="">LSB</option>
+                                <option value="">KCL</option>
+                            </select>
+                        </div>
                     </div>
 
-                    <div class="form_group">
-                        <p>Please enter your details and one of our booking experts will get back to you soon.</p>
-                        <form action="">
-                            <div class="form_row_wrapper">
-                                <div class="single_form_field_wrapper">
-                                    <label for="">FIRST NAME</label><br/>
-                                    <input type="text">
+                    <img src="img-dw/new-2.png" alt="" class="single_property_list">
+                    <img src="img-dw/new-2.png" alt="" class="single_property_list">
+                    <img src="img-dw/new-2.png" alt="" class="single_property_list">
+                    <img src="img-dw/new-2.png" alt="" class="single_property_list">
+                    <img src="img-dw/new-2.png" alt="" class="single_property_list">
+                    
+
+                    <img src="img-dw/pagination.png" alt="" width="100%" style="margin: 20px 0;">
+
+                    <div class="contact_form">
+                        <div class="form_headline">
+                            <img src="img-dw/smartphone.svg" alt="" width="50px;"> Can't find what you are looking for? Get
+                            in touch with our experts!
+                        </div>
+
+                        <div class="form_group">
+                            <p>Please enter your details and one of our booking experts will get back to you soon.</p>
+                            <form action="">
+                                <div class="form_row_wrapper">
+                                    <div class="single_form_field_wrapper">
+                                        <label for="">FIRST NAME</label><br/>
+                                        <input type="text">
+                                    </div>
+
+                                    <div class="single_form_field_wrapper">
+                                        <label for="">LAST NAME</label><br/>
+                                        <input type="text">
+                                    </div>
+
+                                    <div class="single_form_field_wrapper">
+                                        <label for="">EMAIL</label><br/>
+                                        <input type="text">
+                                    </div>
                                 </div>
 
-                                <div class="single_form_field_wrapper">
-                                    <label for="">LAST NAME</label><br/>
-                                    <input type="text">
-                                </div>
+                                <div class="form_row_wrapper">
+                                    <div class="single_form_field_wrapper">
+                                        <label for="">CONTACT NUMBER</label><br/>
+                                        <input type="text">
+                                    </div>
 
-                                <div class="single_form_field_wrapper">
-                                    <label for="">EMAIL</label><br/>
-                                    <input type="text">
-                                </div>
-                            </div>
+                                    <div class="single_form_field_wrapper">
+                                        <label for="">UNIVERSITY</label><br/>
+                                        <input type="text">
+                                    </div>
 
-                            <div class="form_row_wrapper">
-                                <div class="single_form_field_wrapper">
-                                    <label for="">CONTACT NUMBER</label><br/>
-                                    <input type="text">
+                                    <div class="single_form_field_wrapper">
+                                        <label for="">BUDGET</label><br/>
+                                        <input type="text">
+                                    </div>
                                 </div>
-
-                                <div class="single_form_field_wrapper">
-                                    <label for="">UNIVERSITY</label><br/>
-                                    <input type="text">
-                                </div>
-
-                                <div class="single_form_field_wrapper">
-                                    <label for="">BUDGET</label><br/>
-                                    <input type="text">
-                                </div>
-                            </div>
-                            <button class="btn btn-primary contact_button">SUBMIT</button>
-                        </form>
+                                <button class="btn btn-primary contact_button">SUBMIT</button>
+                            </form>
+                        </div>
                     </div>
-                </div>
 
-                <div class="listing_bottom_wrapper">
-                    <h2 class="city_header">Student Accommodations in London</h2>
-                    <div class="city_hero_wrapper">
-                        <img src="img-dw/london-final done 1.jpg" alt="" class="city_image">
+                    <div class="listing_bottom_wrapper">
+                        <h2 class="city_header">Student Accommodations in London</h2>
+                        <div class="city_hero_wrapper">
+                            <img src="img-dw/london-final done 1.jpg" alt="" class="city_image">
+                        </div>
+                        <ul style="padding: 0; list-style-type: none;">
+                            <li class="about_heading">About</li>
+                        </ul>
+                        <p class="city_desc">Nestled on the banks of the river Thames, London is one of the most diverse
+                            and welcoming cities in the world that attracts international students from all walks of life.
+                            They flock to the city in hoards every year, making it challenging to secure quality accommodation
+                            in the city.
+                        </p>
+                        <p class="read_more">Read More</p>
                     </div>
-                    <ul style="padding: 0; list-style-type: none;">
-                        <li class="about_heading">About</li>
-                    </ul>
-                    <p class="city_desc">Nestled on the banks of the river Thames, London is one of the most diverse and
-                        welcoming cities in the world that attracts international students from all walks of life. They flock
-                        to the city in hoards every year, making it challenging to secure quality accommodation in the city.
-                    </p>
-                    <p class="read_more">Read More</p>
                 </div>
             </div>
         </div>
+
+        <footer>
+            <img src="img-dw/cropped-footer.png" alt="" width="100%" style="margin-top: 40px">
+        </footer>
     </div>
 
-    <footer>
-        <img src="img-dw/cropped-footer.png" alt="" width="100%" style="margin-top: 40px">
-    </footer>
 
 </body>
 

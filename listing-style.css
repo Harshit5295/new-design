@@ -83,20 +83,21 @@ input[type="checkbox"] {
 
 .moving_text_wrapper {
     display: flex;
-    margin: 16px 0; 
+    margin: 0 0 18px 0; 
 }
 
 .move_text_header {
     font-family: Open Sans;
-    width: 20%;
-    color: #2cbaa0;
+    width: 30%;
+    color: #46267C;
+    font-weight: bold;
 }
 
 .single_move_div {
     display: inline-block;
     margin-right: 18px;
-    color: #46267C;
-    font-weight: bold;
+    color: #FD6F56;
+    font-weight: 600;
     font-size: 14px;
 }
 
