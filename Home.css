@@ -193,7 +193,7 @@ input[type="text"] {
 }
 
 .testimonials_wrapper h2 {
-    margin: 0 0 3   0px 0;
+    margin: 0 0 3px 0;
     font-size: 18px;
     font-family: Montserrat;
     font-weight: 400;
@@ -588,9 +588,58 @@ input[type="text"] {
     display: block;
 }
 
+.trustpilot_image {
+    width: 15%;
+}
+
+.globe_div {
+    display: block;
+}
+
+.navbar_mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 767px) {
     .desktop_only {
         display: none;
+    }
+
+    .navbar_mobile {
+        display: block;
+        height: 60px; 
+        background-color: white; 
+        display: flex; 
+        padding: 15px 12px;
+    }
+
+    .globe_div {
+        display: none;
+    }
+
+    select {
+        background-position-x: calc(100% - 135px);
+    }
+
+    .rolling_number_wrapper {
+        margin: 0 0 24px 0;
+    }
+
+    .testimonials_wrapper {
+        padding: 42px 0 30px 0;
+    }
+
+    .testimonials_wrapper h1 {
+        font-size: 28px;
+    }
+
+    .testimonials_wrapper h2 {
+        margin: 0 0 15px 0;
+        font-size: 16px;
+    }
+
+    .trustpilot_image {
+        width: 40%;
     }
 
     .single_service_wrapper {
@@ -643,7 +692,7 @@ input[type="text"] {
         display: block;
         padding: 0 20px;
         position: absolute;
-        top: 13%;
+        top: 20%;
     }
 
     .moving_text {
