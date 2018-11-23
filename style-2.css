@@ -505,7 +505,7 @@ select {
 
     .nearby_uni_wrapper_pwa {
         background-color: #FFF;
-        padding: 20px 0;
+        padding: 0;
     }
 
     .single_nearby_card {
@@ -518,9 +518,13 @@ select {
     }
 
     .facilities_wrapper_pwa {
-        margin: 24px 0 0 0;
+        margin: 0;
         padding: 24px 0;
         background-color: #F5F6F6;
+    }
+
+    .similar_house_wrapper_pwa {
+        padding: 50px 0 0 0;
     }
 
     .single_facility_wrapper {
@@ -671,23 +675,24 @@ select {
     }
 
     .contact_wrapper {
-        margin-bottom: 80px;
-        background-color: #55b39d;
+        margin-bottom: 45px;
+        background-color: #3C406E;
         color: white;
         padding: 25px 0;
     }
 
     .contact_wrapper h2 {
-        font-size: 26px;
+        font-size: 18px;
         font-weight: 700;
     }
 
     .contact_number {
-        background-color: #26d4ac;
+        background-color: #fd6f56;
         margin-bottom: 14px;
         padding: 18px;
         border-radius: 35px;
-        box-shadow: 2px 4px 5px #4c766c;
+        font-size: 16px;
+        font-weight: bold;
     }
 
     .single_room_type_heading_selected:after {
