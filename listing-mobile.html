@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Listing Page</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="listing-mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div style="margin: 2px 0px; color: #fd6f56; font-weight: bold;">&lt;</div>
+        <div style="margin: 0 12px;">Accommodation in <b>London</b></div>
+        <div style="margin: 2px 0; position: absolute; right: 15px;"><i class="fa fa-search"></i></div>
+    </div>
+    
+    <div class="container">
+        <select name="" id="" style="width: 100%; margin: 22px 0; padding: 10px 5px;">
+            <option value="">LSB</option>
+            <option value="">KCL</option>
+            <option value="">Duke</option>
+            <option value="">LSE</option>
+            <option value="">qwerty</option>
+            <option value="">uiop</option>
+        </select>
+    </div>
+
+    <div class="popular_properties_wrapper">
+        <h5 style="margin-bottom: 20px;">Popular Properties in London</h5>
+        <div style="display: flex; overflow-x: auto; white-space: nowrap;">
+            <div style="display: flex; margin-right: 22px;">
+                <div style="width: 80px">
+                    <img src="img/dummy-cat.jpg" alt="" width="100%">
+                </div>
+                <div style="padding: 2px 0 0 7px;">
+                    <p style="margin: 0; line-height: 12px;">The Lyra</p>
+                    <p style="margin: 0;">starts at <span style="font-weight: bolder; color: tomato;">$234/week</span></p>
+                </div>
+            </div>
+    
+            <div style="display: flex; margin-right: 22px;">
+                <div style="width: 80px">
+                    <img src="img/dummy-cat.jpg" alt="" width="100%">
+                </div>
+                <div style="padding: 2px 0 0 7px;">
+                    <p style="margin: 0; line-height: 12px;">The Lyra</p>
+                    <p style="margin: 0;">starts at <span style="font-weight: bolder; color: tomato;">$234/week</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="listing_contents">
+        <div class="single_list">
+            <img src="img/dummy-cat.jpg" alt="" width="100%">
+            <img src="img-dw/list-explain.jpg" alt="" width="100%">
+        </div>
+
+        <div class="single_list">
+            <img src="img/dummy-cat.jpg" alt="" width="100%">
+            <img src="img-dw/list-explain.jpg" alt="" width="100%">
+        </div>
+
+        <div class="single_list">
+            <img src="img/dummy-cat.jpg" alt="" width="100%">
+            <img src="img-dw/list-explain.jpg" alt="" width="100%">
+        </div>
+
+        <div class="single_list">
+            <img src="img/dummy-cat.jpg" alt="" width="100%">
+            <img src="img-dw/list-explain.jpg" alt="" width="100%">
+        </div>
+
+        <div class="single_list">
+            <img src="img/dummy-cat.jpg" alt="" width="100%">
+            <img src="img-dw/list-explain.jpg" alt="" width="100%">
+        </div>
+
+        <div>
+            <img src="img-dw/pagination.png" alt="" width="100%">
+        </div>
+    </div>
+
+    <!-- <div class="listing_bottom">
+        <h5 style="padding: 0 15px;">Enjoy Quality Student Accommodation in London</h5>
+        <img src="img-dw/london-final done 1.jpg" alt="" width="100%">
+        <div style="padding: 20px 15px; margin-bottom: 150px;">
+            <h6 style="font-weight: bolder;">About</h6>
+            <p style="text-align: justify">Nestled on the banks of the river Thames, London is one of the most diverse
+                and welcoming cities in the world that attracts international 
+                students from all walks of life.
+            </p>
+            <p style="color: tomato">Read More</p>
+        </div>
+    </div> -->
+
+    <div style="position: fixed; bottom: 135px; left: 7px;">
+        <img src="img-dw/man-01.svg" width="35%">
+    </div>
+
+    <div class="filters_wrapper">
+        <div style="text-align: center; width: 100%;">Filter</div>
+        <div data-toggle="modal" data-target="#exampleModal" style="text-align: center; width: 100%;">Sort</div>
+    </div>
+
+    <img src="img-dw/chat-new.png" alt="" style="position: fixed; bottom: 45px; left: 5px;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog offer-modal" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sort</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Most Popular</p>
+                    <p>Recommended</p>
+                    <p>Price Low to High</p>
+                    <p>Price High to Low</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
